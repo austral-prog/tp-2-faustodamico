@@ -1,11 +1,12 @@
-def earth():    
-    x = "Bangladesh"    
+def earth():
+    x = "Bangladesh"
     y = "Barbados"
-    if x<y:
-        a="true"
-        b="false"
+    if x < y:
+        a = "True"
+        b = "False"
     else:
-        b="true"
-        a="false"
-    print("The result of ",x," comes first in the dictionary than ",y," is", a)
-    print("The result of ",y," comes first in the dictionary than ",x," is",b)
+        a = "False"
+        b = "True"
+
+    print("The result of", x, "comes first in the dictionary than", y, "is", a)
+    print("The result of", y, "comes first in the dictionary than", x, "is", b)
